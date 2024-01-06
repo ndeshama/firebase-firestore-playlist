@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1>Cloud Cafe</h1>
+
+        <div class="content">
+
+            <form id="add-cafe-form"></form>
+
+            <ul id="cafe-list"></ul>
+
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyCJwFuM_Z8ii6tz3IQ8AUOsPFAUmRJbLJY",
+          authDomain: "tut-ninja-firestore-11679.firebaseapp.com",
+          projectId: "tut-ninja-firestore-11679",
+          storageBucket: "tut-ninja-firestore-11679.appspot.com",
+          messagingSenderId: "291489768728",
+          appId: "1:291489768728:web:ce81be8144e500c99a2a6d"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+</html>
